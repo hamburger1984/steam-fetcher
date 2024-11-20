@@ -6,12 +6,12 @@
 }:
 stdenv.mkDerivation rec {
   name = "steamworks-sdk-redist";
-  version = "18639946";
+  version = "14549801";
   src = fetchSteam {
     inherit name;
     appId = "1007";
     depotId = "1006";
-    manifestId = "6912453647411644579";
+    manifestId = "7138471031118904166";
     hash = "sha256-cj853Zk3dU0WICny3soTFppWkf8NJBp6C+Ywb96Yxcs=";
   };
 
