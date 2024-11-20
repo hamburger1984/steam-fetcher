@@ -6,7 +6,7 @@
 }:
 stdenv.mkDerivation rec {
   name = "steamworks-sdk-redist";
-  version = "14549801";
+  version = "23760255";
   src = fetchSteam {
     inherit name;
     appId = "1007";
