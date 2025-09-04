@@ -11,6 +11,7 @@
   depotId,
   manifestId,
   branch ? null,
+  branchPassword ? null,
   fileList ? [],
   hash,
 }: let

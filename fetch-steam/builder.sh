@@ -15,7 +15,10 @@ args=(
 )
 
 if [ -n "$branch" ]; then
-	args+=(-beta "$branch")
+	args+=(-branch "$branch")
+  if [ -n "$branchPassword" ]; then
+	  args+=(-branchPassword "$branchPassword")
+  fi
 fi
 
 if [ -n "$debug" ]; then
