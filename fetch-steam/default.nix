@@ -22,7 +22,7 @@
 in
   stdenvNoCC.mkDerivation {
     name = "${name}-depot";
-    inherit debug appId depotId manifestId branch;
+    inherit debug appId depotId manifestId branch branchPassword;
     filelist =
       if fileList != []
       then fileListFile
